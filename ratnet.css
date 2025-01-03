@@ -1,0 +1,122 @@
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+
+	      ul {
+            list-style-type: square;
+        }
+
+	      li {
+            margin-bottom: 15px;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .company-name {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 18px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        img {
+            width: 2cm;
+            height: 2cm;
+        }
+
+/* Сука. Ебучие контакты */
+
+/* Тестовая поебота */
+
+.contacts__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacts__item {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contacts__item.address {
+    flex-grow: 1;
+}
+
+.contacts__item.phone,
+.contacts__item.schedule {
+    flex-basis: 25%; /* Установим одинаковую ширину для телефона и времени работы */
+    text-align: center;
+}
+
+.contacts__item.email {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.contacts__icon {
+    margin-right: 10px;
+}
+
+.contacts__h4 {
+    margin: 0;
+}
+
+.contacts__h4.contacts__h4-gray {
+    margin-bottom: 5px;
+}
+
+.contacts__h4.contacts__h4 {
+    margin-top: 0;
+}
+
+.contacts__h4.contacts__h5 {
+    font-size: 20px;
+}
+
+.serv__flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.serv__flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+        
